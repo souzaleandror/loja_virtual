@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:loja_virtual/screens/home_screen.dart';
 
 void main() {
   runApp(new MaterialApp(
-      title: "Contador de Pessoas",
-      home: Container(color: Colors.purple)
+      title: "Flutters Clothings",
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+        primaryColor: Color.fromARGB(255, 4, 125, 141)
+      ),
+      debugShowCheckedModeBanner: false,
+      home: HomeScreen()
   ));
 }

@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>936297582156-noj4amsanse2ufntt8g0262rgbqclou7.apps.googleusercontent.com</string>
+	<string>257212796509-8fd0p6sm3urucrcjva6uihqikdglj0k9.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.936297582156-noj4amsanse2ufntt8g0262rgbqclou7</string>
+	<string>com.googleusercontent.apps.257212796509-8fd0p6sm3urucrcjva6uihqikdglj0k9</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAB3Xv9BWGdxN_0ltJ9YqQuUCEojXRTAYg</string>
+	<string>AIzaSyBxtjYvN9uT23iub37fval4cntS3TcOhak</string>
 	<key>GCM_SENDER_ID</key>
-	<string>936297582156</string>
+	<string>257212796509</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>lojavirtual.lrs.com.br.lojaVirtual</string>
 	<key>PROJECT_ID</key>
-	<string>lojavirtual-e9947</string>
+	<string>lojaflutter-4b1d5</string>
 	<key>STORAGE_BUCKET</key>
-	<string>lojavirtual-e9947.appspot.com</string>
+	<string>lojaflutter-4b1d5.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:936297582156:ios:b2928efe159980a2</string>
+	<string>1:257212796509:ios:b2928efe159980a2</string>
 	<key>DATABASE_URL</key>
-	<string>https://lojavirtual-e9947.firebaseio.com</string>
+	<string>https://lojaflutter-4b1d5.firebaseio.com</string>
 </dict>
 </plist>
