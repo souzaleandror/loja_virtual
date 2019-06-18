@@ -11,12 +11,15 @@ class ProductsTab extends StatelessWidget {
         if(!snapshot.hasData) {
           return Center(child: CircularProgressIndicator(),);
         } else {
+
+          var dividedTiles = ListTile.divideTiles(
+              tiles: snapshot.data.documents.map((doc){
+          return CategoryTile(doc);
+          }).toList(),
+          color: Colors.grey[500]).toList();
+
           return ListView(
-            children: snapshot.data.documents.map(
-                (doc) {
-                  return CategoryTile(doc);
-                }
-            ).toList(),
+            children: dividedTiles,
           );
         }
       }
