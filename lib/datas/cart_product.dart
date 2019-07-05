@@ -25,7 +25,7 @@ class CartProduct {
     return {
       "category": category,
       "pid": pid,
-      "quantaty": quantity,
+      "quantity": quantity,
       "size": size,
       //"product": productData.toResumeMap()
     };
